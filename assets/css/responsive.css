@@ -1,0 +1,188 @@
+
+@media all and (max-width:1450px){
+    .logo {
+        position: inherit;
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width:1200px){
+   .container{
+    width: 90%;
+    margin: auto;
+   }
+}
+
+@media all and (max-width:991px){
+    .menu-icon {
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .header-area {
+        background: none;
+    }
+    .banner-contain {
+        width: 100%;
+        padding: 5rem 0;
+    }
+    .services {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5rem;
+    }
+    .service h2 {
+        margin-bottom: 4rem;
+    }
+    .section-padding {
+        padding: 7rem 0;
+    }
+    .works {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .news-items { 
+        -ms-grid-columns: (1fr)[2]; 
+        grid-template-columns: repeat(2,1fr);
+    }
+    .left-content img {
+        margin-left: -5%;
+    }
+    .header-area-img{
+        display: block;
+    }
+}
+
+@media all and (max-width:767px){
+    .about-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .left-content, .right-content {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 5rem;
+    }
+    .right-content {
+        margin-bottom: 0;
+    }
+    .left-content img {
+        margin-left: 0;
+    }
+    .banner-contain h2{
+        font-size: 5rem;
+        max-width: 460px;
+    }   
+}
+
+@media all and (max-width:576px){
+    .header-btn form, .header-btn .btn1{
+        display: none;
+    }
+    .works {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .news-items {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact-group {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0;
+    }
+    .footer-content h2 {
+        font-size: 3.5rem;
+    }
+    .footer-content p {
+        margin-bottom: 3rem;
+    }
+    .social li a {
+        font-size: 2.5rem;
+    }
+    .footer-content h4 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media all and (max-width:450px){
+    .row {
+        padding: 3rem 0;
+    }
+    .works {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-contain h2 {
+        font-size: 4rem;
+    }
+    .banner-contain {
+        padding: 2rem 0;
+    }
+    .banner-contain p {
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+    }
+    .btns1 {
+        font-size: 1.5rem;
+        padding: 1.2rem 1.7rem;
+        margin-bottom: 3rem;
+    }
+    .buttons{
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+      }
+      .service h2 {
+        font-size: 3.5rem;
+        /* margin-bottom: 5rem; */
+    }
+    .about-class h2, .work-header h2 {
+        margin-bottom: 2rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .work-header h2 {
+        margin-bottom: 1rem;
+    }
+    .work-header {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .about-class p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .work-header ul {
+        margin-bottom: 3.0rem;
+    }
+    .contact-area.section-padding {
+        padding: 7rem 0 3.5rem 0;
+    }
+    .footer-area {
+        padding: 3rem 0;
+    }
+    .footer-content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .footer-content h4 {
+        font-size: 1.5rem;
+    }
+    .footer-content p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .social li a {
+        font-size: 2.0rem;
+        margin: 0 1rem;
+    }
+}
